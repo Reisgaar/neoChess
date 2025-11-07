@@ -6,7 +6,7 @@ import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
 // CONTEXTS
-import { useAppTheme } from '@/context/theme-context';
+import { useAppTheme } from 'src/context/theme-context';
 
 // TRANSLATIONS
 import { useTranslation } from 'react-i18next';

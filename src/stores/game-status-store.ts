@@ -7,7 +7,7 @@ import { EGameStatus } from 'src/models/enums/game-status';
 import { IPieceStatus } from 'src/models/interfaces/piece-status';
 
 // SERVICES
-import { getNewPieces } from '@/services/pieces-service';
+import { getNewPieces } from 'src/services/pieces-service';
 
 /**
  * Interface for the useSettingsStore.

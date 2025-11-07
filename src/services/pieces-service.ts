@@ -1,5 +1,5 @@
 // REACT
-import { useGameStatusStore } from "@/stores/game-status-store";
+import { useGameStatusStore } from "src/stores/game-status-store";
 
 // MODELS
 import { EPieceColor } from "src/models/enums/piece-color";

@@ -8,7 +8,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 
 // CONTEXTS
-import { useAppTheme, ThemeProvider as AppThemeProvider } from '@/context/theme-context';
+import { useAppTheme, ThemeProvider as AppThemeProvider } from 'src/context/theme-context';
 
 // TRANSLATIONS (needed to allow translations)
 import 'src/i18n';

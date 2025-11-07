@@ -3,7 +3,7 @@ import React, { JSX } from 'react';
 import { Text, TextProps } from 'react-native';
 
 // CONTEXTS
-import { useAppTheme } from '@/context/theme-context';
+import { useAppTheme } from 'src/context/theme-context';
 
 /**
  * Themed text to use instead of Text element.

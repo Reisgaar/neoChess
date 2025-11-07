@@ -1,6 +1,7 @@
 // REACT
 import { useEffect, useState } from 'react';
 import { Dimensions, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 // EXPO
 import { router } from 'expo-router';
@@ -15,11 +16,12 @@ import { useTranslation } from 'react-i18next';
 import { getCommonStyles } from 'src/styles';
 
 // COMPONENTS
+import { BishopIcon, QueenIcon, RookIcon, KnightIcon, KingIcon, PawnIcon } from 'src/components/pieces';
 import ThemedText from 'src/components/ThemedText';
 import ThemedButton from 'src/components/ThemedButton';
-import { BishopIcon, QueenIcon, RookIcon, KnightIcon, KingIcon, PawnIcon } from 'src/components/pieces';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { styleConstants } from '@/styles/style-constants';
+
+// CONSTANTS
+import { styleConstants } from 'src/styles/style-constants';
 
 /**
  * Home screen of the application.
