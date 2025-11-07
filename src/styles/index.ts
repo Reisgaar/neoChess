@@ -1,0 +1,1 @@
+export { getCommonStyles } from 'src/styles/common-styles';
